@@ -17,7 +17,7 @@ Data does indeed go stale. Frequently, historic data can become incompatible wit
 Check if your data fits in your tools.
 Example: Data  was too wide to import into a SQL table. Best fix: Determine feature selection  that will fit in a SQL  table.
 
-## Ingest from  on-prem has issues with a number of tools
+Ingest from  on-prem to cloud has issues with a number of tools
 - Large data sizes require physical disks to be shipped.  That requires planning and takes more time than expected.
 - Azure has new capabilities for ingesting large amounts of data and documentation is easily available.
 
@@ -49,6 +49,7 @@ The timeframe for using the data is critical. Does data access disappear?  For 
 
 Define source and incremental locations of the data.
 Are there royalties associated with the data? Who manages and tracks?
+Ensure awareness of relevant regulation, ie GDPR, Cookie regulations, etc
 
 
 Other items to consider for a successful project:
