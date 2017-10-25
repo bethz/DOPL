@@ -18,32 +18,32 @@ Check if your data fits in your tools.
 Example: Data  was too wide to import into a SQL table. Best fix: Determine feature selection  that will fit in a SQL  table.
 
 ## Ingest from  on-prem has issues with a number of tools
-- Large data sizes require physical disks to be shipped.  That requires planning.
+- Large data sizes require physical disks to be shipped.  That requires planning and takes more time than expected.
 - Azure has new capabilities for ingesting large amounts of data and documentation is easily available.
 
 # 4. Data Preparation
 Cleaning and understanding data directly impacts all subsequent work and outcomes.
 
-##Plan for issues with naming  from different groups, companies or tools
+Plan for issues with naming data columns when data is being sourced from different groups, companies or tools.
 Correllating feature names, columns, between groups or tools can  not be expected to match. At one company I worked at, because of historic and disconnected tools, we had over 25 variations on the name "HP", "H.P.", "Hewlett-Packard", etc. And that was just ONE company and one data issue. Correllating data from more than one company is even harder.
 
 Document missing data and how it was massaged. Same for inaccuracies and structural issues.
 
-Is the amount of data sufficient for the expected work?
+Identify the amount of data needed to perform an analysis.
 
-What else is impacting the data and can we control that?
+Identify other data impacts and methods to address.
 
-Is there sufficient relevant information in the data?
-
-IS the data stale?
+Is there a way to tell if data is stale?
 
 # 5. Data Analysis
-## Beware of automated feature selection!
+Beware of automated feature selection! Provide example.
 
 # 6. Data Publication
 Running data in a model  locally will result in very different team behavior from using your data in an operationalized model.
 
-# 2. Data StewardshipThis  is  separate from Plan so that it is given due consideration. Test data, POC data, pilot data and more all mean different things to the data owner. Find out what they are and accomodate before you begin.
+# 7. Data Stewardship
+
+This  is  separate from the Data Plan so that it is given due consideration. Test data, POC data, pilot data and more all mean different things to the data owner. Find out what they are and accomodate before you begin.
 PII can be a beast if not planned for. Enough said.
 The timeframe for using the data is critical. Does data access disappear?  For a data science project, who owns or can access the data for the long term. Who owns or can access the data output by the model? Same can be said for the model created from the data.  Does the data time out? 
 
