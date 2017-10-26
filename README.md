@@ -52,7 +52,8 @@ Beware of automated feature selection! Although unrelated features may seem to h
 # 7. Data Publication
 Running data in a model  locally will result in very different team behavior from using your data in an operationalized model.
 
-
+# 8. Data Access and Permissions
+Once you know exactly what data you want and which pieces of that data are relevant, make sure you have the appropriate logins and sufficient permissions to access the data.  Note that this isn't only about being able to connect to the data, it is also about the content and whether your access permissions will allow you to see the fields you want.  Additionally, are there any rules tied to how you want to use that content.  For instance, are you dealing with PII (Personally Identifiable Information) that is covered by specific regulatory requirements as to who can see and share the data.  You may need to mask or exclude certain fields in order to prevent audit exposures.
 
 Other items to consider for a successful project:
 
