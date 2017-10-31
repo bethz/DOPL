@@ -12,13 +12,18 @@ Consider injecting and leveraging business intelligence into your data to derive
 
 # 2. Data Stewardship
 
-This  is  separate from the Data Plan so that it is given due consideration. Test data, POC data, pilot data and more all mean different things to the data owner. Find out what they are and accomodate before you begin.
-PII can be a beast if not planned for. Enough said.
-The timeframe for using the data is critical. Does data access disappear?  For a data science project, who owns or can access the data for the long term. Who owns or can access the data output by the model? Same can be said for the model created from the data.  Does the data time out? 
+Data Stewardship includes data as well as any models created from the data.
+This is separate from the Data Plan so that it is given due consideration. Test data, POC data, pilot data and more must be considered according to the owner.  Find out requirements and timelines for each type of data to plan for and accomodate before the project begins.
+PII, Personally Identifiable Information, can be a beast if not planned for. Make sure you have the appropriate logins and sufficient permission to access the data.  Note that this isn't only about being able to connect to the data, it is about the ability to access the fields as well as content.  Additionally, confirm rules tied to how you want to use that content.  For instance, there could be specific regulatory requirements for access.  In order to prevent audit exposure, it may be necessary to mask or exclude certain fields.
+
+The timeframe for using the data is critical. Define the dates for the end of data access.  
+
+Reminder: All of the data needed as well as the model created from the data must be considered.
 
 Define source and incremental locations of the data.
 Are there royalties associated with the data? Who manages and tracks?
 Ensure awareness of relevant regulation, ie GDPR, Cookie regulations, etc
+
 
 # 3. Data Acquisition
 
@@ -52,8 +57,7 @@ Beware of automated feature selection! Although unrelated features may seem to h
 # 7. Data Publication
 Running data in a model  locally will result in very different team behavior from using your data in an operationalized model.
 
-# 8. Data Access and Permissions
-Once you know exactly what data you want and which pieces of that data are relevant, make sure you have the appropriate logins and sufficient permissions to access the data.  Note that this isn't only about being able to connect to the data, it is also about the content and whether your access permissions will allow you to see the fields you want.  Additionally, are there any rules tied to how you want to use that content.  For instance, are you dealing with PII (Personally Identifiable Information) that is covered by specific regulatory requirements as to who can see and share the data.  You may need to mask or exclude certain fields in order to prevent audit exposures.
+
 
 Other items to consider for a successful project:
 
